@@ -76,7 +76,7 @@ while (exit != 10)
         }
     }
 
-    Console.Write("1 - право, 2 -лево, 3 вниз, 4 - вверх: ");
+    Console.Write("Для выхода 10. 1 - право, 2 -лево, 3 вниз, 4 - вверх: ");
     int N = Convert.ToInt32(Console.ReadLine());
 
     Obj(tetris, N);
